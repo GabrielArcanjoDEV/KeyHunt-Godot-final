@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "KeyHunt-Godot-final",
+			"path": "."
+		},
+		{
+			"name": "Assets",
+			"path": "../../KeyHunt Godot final/KeyHunt_Godot/Assets"
+		},
+		{
+			"name": "Referencia_Java",
+			"path": "../../KeyHunt Godot final/KeyHunt_Godot/Referencia_Java"
+		},
+		{
+			"name": "Scenes",
+			"path": "../../KeyHunt Godot final/KeyHunt_Godot/Scenes"
+		},
+		{
+			"name": "Scripts",
+			"path": "../../KeyHunt Godot final/KeyHunt_Godot/Scripts"
+		},
+		{
+			"name": ".godot",
+			"path": "../../KeyHunt Godot final/KeyHunt_Godot/.godot"
+		}
+	],
+	"settings": {}
+}
