@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Scripts/EndScreen.cs" id="1"]
+
+[node name="GameOver" type="Control"]
+script = ExtResource("1")
+
+BackgroundPath = "res://Assets/imagens/TelaDerrota.png"
+MusicPath = "res://Assets/sons/musicaDerrota.wav"
+ButtonY = 632

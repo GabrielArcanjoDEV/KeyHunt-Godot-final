@@ -1,0 +1,44 @@
+KEY HUNT - MIGRACAO PARA GODOT 4 .NET (C#)
+===========================================
+
+O que foi migrado:
+- Recursos originais: imagens de menu, derrota, opcoes, vitoria, jogador, golem, tiles, decoracoes e audios.
+- Matriz do mapa e matriz de decoracoes preservadas a partir de MapaMatriz.java.
+- Posicoes originais do jogador, dos tres inimigos e das sete chaves.
+- Menu inicial, opcoes de musica/volume, gameplay, HUD, tela de derrota e tela de vitoria.
+- Movimentacao WASD/setas, animacao do jogador, inimigos perseguindo/atacando, dano, ataque com ESPACO e coleta de chaves.
+
+IMPORTANTE / ESTADO DA MIGRACAO
+--------------------------------
+Este e um primeiro projeto funcional de migracao, nao uma conversao automatica byte-a-byte.
+A estrutura visual e as regras principais foram reimplementadas em C# usando cenas Godot.
+Alguns detalhes do Java original ainda precisam de ajuste fino:
+- A iluminacao radial ao redor do jogador foi deixada desativada nesta primeira versao.
+- O mapa foi desenhado com os mesmos tiles/matrizes, mas as colisoes do mundo ainda precisam ser refinadas:
+  a movimentacao usa CharacterBody2D, mas a camada de tiles ainda nao cria automaticamente os bloqueios do mapa.
+- O menu/opcoes usa os fundos originais e botoes Godot posicionados pelas coordenadas do Java.
+- A logica de perseguicao/dano dos inimigos foi adaptada para delta time e pode exigir balanceamento.
+
+COMO ABRIR
+----------
+1. Instale a versao Godot 4 .NET (nao a versao Standard).
+2. Instale .NET SDK 8.
+3. Extraia a pasta KeyHunt_Godot.
+4. Abra o Godot .NET.
+5. Clique em Importar e selecione o arquivo project.godot desta pasta.
+6. Aguarde a importacao dos recursos.
+7. Abra o projeto e pressione F6/F5 (F5 executa a cena principal).
+
+Se o Godot solicitar recompilacao, aceite. Se houver erro de compilacao:
+- Abra o projeto no VS Code e rode `dotnet build` na pasta do projeto.
+- Consulte o arquivo MIGRACAO_NOTAS.md para detalhes.
+
+CONTROLES
+---------
+WASD ou setas: movimentar
+ESPACO: atacar
+
+ARQUIVOS ORIGINAIS
+------------------
+A pasta Referencia_Java preserva os fontes Java originais para consulta.
+A pasta Assets preserva as imagens e sons recebidos no ZIP.

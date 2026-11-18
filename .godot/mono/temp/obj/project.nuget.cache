@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "gXhkqD6Kq8o=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gabriel Arcanjo\\Desktop\\KeyHunt Godot final\\KeyHunt_Godot\\Key Hunt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabriel Arcanjo\\.nuget\\packages\\godot.sourcegenerators\\4.7.2\\godot.sourcegenerators.4.7.2.nupkg.sha512",
+    "C:\\Users\\Gabriel Arcanjo\\.nuget\\packages\\godotsharp\\4.7.2\\godotsharp.4.7.2.nupkg.sha512",
+    "C:\\Users\\Gabriel Arcanjo\\.nuget\\packages\\godotsharpeditor\\4.7.2\\godotsharpeditor.4.7.2.nupkg.sha512",
+    "C:\\Users\\Gabriel Arcanjo\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.29\\microsoft.netcore.app.ref.8.0.29.nupkg.sha512",
+    "C:\\Users\\Gabriel Arcanjo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.29\\microsoft.windowsdesktop.app.ref.8.0.29.nupkg.sha512",
+    "C:\\Users\\Gabriel Arcanjo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.29\\microsoft.aspnetcore.app.ref.8.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}
