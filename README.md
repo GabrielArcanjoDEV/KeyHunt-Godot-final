@@ -134,6 +134,4 @@ Este projeto foi desenvolvido como parte da conclusão da residência em games, 
 
 *Os créditos dos recursos gráficos e sonoros de terceiros devem ser acrescentados conforme suas respectivas fontes e licenças.*
 
----
-
-\<p align="center">   🎮 \*\*KEY HUNT — Explore, lute, encontre a chave e vença!\*\* 🗝️ \</p>
+kEY HUNT — Explore, lute, encontre a chave e vença! 🗝️ 
